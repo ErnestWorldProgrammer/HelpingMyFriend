@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Adobe Devanagari', sans-serif;
+    font-weight: 250;
+}
+.container {
+    width: 1289px;
+    margin: 0 auto;
+}
+a {
+    all: unset;
+    cursor: pointer;
+    color: grey;
+}
+li {
+    all: unset;
+    display: flex;
+}
+.smart-house {
+    width: 671px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 250;
+    position: relative;
+    letter-spacing: 2px;
+}

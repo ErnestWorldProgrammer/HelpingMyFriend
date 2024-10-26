@@ -1,0 +1,337 @@
+.wrapper {
+    background-color: rgb(28, 28, 28);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 130px 0;
+}
+.elite-order {
+    display: flex;
+    justify-content: space-between;
+}
+.elite-fire {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+.elite-fire h4 {
+    color: white;
+}
+.elite-fire p {
+    color: grey;
+}
+.elite-product {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 13px;
+}
+.elite-product a {
+    transition: 1s;
+}
+.elite-product a:hover {
+    font-size: 15px;
+    color: orange;
+}
+.header .container {
+    margin-top: 100px;
+}
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    color: rgba(255, 207, 122, 1);
+    margin-top: 29px;
+}
+.production {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    color: white;
+    margin-top: 86px;
+}
+.production-self {
+    text-align: center;
+}
+.neck {
+    padding: 164px 76px;
+}
+.smart {
+    width: 1020px;
+    height: 829px;
+    background-image: url(./images/hot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 300px;
+    margin-left: 150px;
+}
+.img-hot {
+    display: flex;
+    justify-content: center;
+}
+.smart-plus {
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    margin-top: 67px;
+}
+.plus1-hot {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    color: #b4b4b4;
+    font-weight: 300;
+}
+.shoulders {
+    padding: 75px;
+}
+.inside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.inside-filling {
+    font-size: 40px;
+    font-weight: 250;
+    letter-spacing: 3px;
+}
+.inside-img {
+    background-image: url(images/smart.hot.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inside-bgc {
+    background-image: url(images/hot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 673px;
+    height: 521px;
+    position: relative; 
+    left: 100px;
+}
+.small-circle {
+    width: 98px;
+    height: 98px;
+    background-color: rgba(221, 221, 221, 0);
+    border: orange solid 1px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -70px;
+    left: 80px;
+}
+.small-big {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(221, 221, 221, 0);
+    border: orange solid 1px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -30px;
+    left: 150px;
+}
+.smart-kamin {
+    padding: 67px;
+}
+.fuel-block {
+    width: 1194px;
+    display: flex;
+    padding-top: 43px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+.line {
+    width: 454px;
+    height: 0.5px;
+    background-color: orange;
+    margin-top: 10px;
+}
+.line2 {
+    width: 58px;
+    height: 1px;
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: 445px;
+    transform: rotate(45deg);
+}
+.finish-options, .finish-options2 {
+    padding-top: 30px;
+}
+.finish-options {
+    margin-bottom: 100px;
+}
+.options, .options2 {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap: 94px;
+    color: white;
+    line-height: 27px;
+    margin-top: 15px;
+}
+.video-kamin {
+    width: 537px;
+    height: 346px;
+    background-color: rgba(18, 18, 18, 1);
+    margin-top: 50px;
+    display: flex;
+}
+.next-video {
+    width: 18px;
+    height: 18px;
+    margin-top: 283px;
+    margin-left: 40px;
+}
+.get-catalog {
+    padding: 106px 123px;
+}
+.get-catalog-title {
+    width: 1138px;
+    text-align: center;
+    margin: 0 auto;
+}
+.get {
+    width: 284px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    margin: 30px auto;
+    background: linear-gradient(to top right, #ff4d00, white);
+}
+.solutions-images {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+.solution-img {
+    width: 370px;
+    height: 267px;
+    background-color: rgba(18, 18, 18, 1);
+    margin-top: 50px;
+}
+.you-author {
+    padding: 94px 123px;
+}
+.choice {
+    margin-top: 67px;
+    display: flex;
+    gap: 100px;
+}
+.length {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.length-line1 {
+    width: 361px;
+    height: 1px;
+    background-color: rgba(100, 100, 100, 1);
+}
+.length-line2 {
+    width: 296px;
+    height: 1px;
+    background-color: rgba(255, 207, 122, 1);
+}
+.length-your {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 207, 122, 1);
+    position: relative;
+    left: 270px;
+    bottom: 15px;
+    border-radius: 2px;
+}
+.functions {
+    display: flex;
+}
+.function-plus {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 207, 122, 1);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.function-pluses {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(255, 207, 122, 1) solid 1px;
+    border-radius: 2px;
+}
+.functions {
+    display: flex;
+    gap: 143px;
+}
+.your-choice-price {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+.submit-application {
+    width: 284px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    background: linear-gradient(to top right, #ff4d00, white);
+}
+.footer {
+    padding: 72px 123px;
+    background-color: black;
+}
+.contact {
+    margin-top: 71px;
+    display: flex;
+    gap: 300px;
+}
+.whatsapp-telegram, .address, .number{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.manager {
+    width: 279px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(255, 207, 122, 1) solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 1s;
+}
+.manager:hover {
+    background-color: rgba(255, 207, 122, 1);
+    color: black;
+    border: white solid 1px;
+}
+.the-end {
+    padding: 41px 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+}
+.end-elite {
+    display: flex;
+    gap: 100px;
+}
+.years {
+    display: flex;
+    gap: 30px
+}
