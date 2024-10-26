@@ -1,0 +1,333 @@
+.header {
+    padding: 85px 80px 38px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    font-size: 17px;
+}
+.we {
+    transition: 1s;
+}
+.we:hover {
+    font-size: 20px;
+    color: green;
+}
+.help {
+    background-color: rgba(117, 191, 122, 1);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 26px;
+    transition: 1s;
+}
+.help:hover {
+    background-color: green;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.download-app {
+    display: flex;
+    gap: 103px;
+}
+.download-text {
+    width: 570px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 800;
+}
+.download-simple-text {
+    width: 550px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 27px;
+    margin-left: 80px;
+    color: rgba(158, 157, 162, 1);
+}
+.button-download {
+    width: 550px;
+    gap: 10px;
+    display: flex;
+    margin: 80px;
+}
+.download-in {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px 32px;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 5px;
+    transition: 1s;
+}
+.download-in:hover {
+    transform: scale(1.1);
+    background-color: green;
+    margin: 0 20px;
+    font-size: 30px;
+}
+.to-drive .container {
+    background-color: rgba(117, 191, 122, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 50px 70px;
+}
+.lets-text {
+    width: 246px;
+    font-size: 24px;
+    color: white;
+}
+.order-search {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.search-taxi {
+    background-color: white;
+    border-radius: 5px;
+    padding: 38px 208px 29px 35px;
+}
+.button-drive button{
+    padding: 34px 43px 33px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    transition: 1s;
+}
+.button-drive button:hover {
+    font-size: 20px;
+    color: rgba(117, 191, 122, 1);
+}
+.works {
+    padding: 128px;
+}
+.how-works {
+    width: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+.highlight {
+    color: rgba(117, 191, 122, 1);
+}
+.how-works p {
+    font-size: 26px;
+    text-align: center;
+    color: rgba(158, 157, 162, 1);
+}
+.step-on-work {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+    align-items: center;
+}
+.step1-step3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+}
+.step1 {
+    width: 300px;
+    text-align: right;
+    line-height: 26px;
+}
+.step-ride {
+    display: flex;
+    justify-content: flex-end;
+}
+.step-img {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/step.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    color: rgba(117, 191, 122, 1);
+    font-size: 34px;
+    font-weight: 800;
+    transition: 1s;
+}
+.step-img:hover {
+    font-size: 45px;
+    color: green;
+}
+.step1 h3 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.step-how {
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(158, 157, 162, 1);
+}
+.back {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(117, 191, 122, 1);
+    border-radius: 100%;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+}
+.back:hover {
+    rotate: 360deg;
+    width: 500px;
+    height: 500px;
+    background-color: #8be58b;
+    border: 10px solid rgb(60, 175, 68);
+}
+.back img {
+    margin: 0 auto;
+}
+.step2-step4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+}
+.step2 {
+    width: 300px;
+    text-align: left;
+    line-height: 26px;
+}
+.step-ride {
+    display: flex;
+    justify-content: flex-end;
+}
+.step2 h3 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.step-ride2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.circle {
+    width: 100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.circle div {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(117, 191, 122, 1);
+    border-radius: 100%;
+    transition: 1s;
+}
+.circle div:hover {
+    background-color: green;
+}
+.banefits {
+    padding-top: 87px;
+}
+.benefits .container {
+    width: 1060px;
+}
+.plus01-in-work {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(243, 240, 240);
+    border-radius: 10px;
+;
+}
+.benefits .container {
+    padding: 80px 38px;
+}
+.plus-in-work {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+.plus01 {
+    font-size: 88px;
+    color: #8be58b;
+}
+.flex {
+    font-size: 34px;
+    width: 250px;
+    font-weight: 600;
+}
+.about-plus {
+    width: 500px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(158, 157, 162, 1);
+    line-height: 23px;
+}
+.plus01-in-work img {
+    padding: 25px;
+}
+.footer {
+    margin-top: 275px;
+    padding: 71px 120px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.footer .container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.be-friend {
+    width: 206px;
+    line-height: 40px;
+}
+.be-friend h3 {
+    font-size: 22px;
+}
+.be-friend p {
+    font-size: 18px;
+    color: rgba(139, 139, 165, 1);
+;
+}
+
+.download-footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px 20px;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 5px;
+    transition: 1s;
+}
+.download-footer:hover {
+    transform: scale(1.1);
+    background-color: green;
+    margin: 0 20px;
+    font-size: 30px;
+}
+.the-end {
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+    color: rgba(117, 191, 122, 1);
+}
