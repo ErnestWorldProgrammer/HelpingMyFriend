@@ -1,0 +1,228 @@
+.header {
+    padding: 100px;
+    background-color: rgba(238, 239, 241, 1);
+}
+.about {
+    display: flex;
+    align-items: center;
+    gap: 550px;
+}
+.about2 {
+    display: flex;
+    gap: 20px;
+}
+.about h2 {
+    font-size: 48px;
+    font-family: 'Revalia', sans-serif;
+    color: rgba(52, 84, 122, 1);
+}
+.about2 a {
+    transition: 1s;
+}
+.about2 a:hover {
+    font-size: 20px;
+    color: rgba(52, 84, 122, 1);
+    margin: 0 20px;
+}
+.design {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.design-and-layout {
+    margin-left: 130px;
+}
+.design-and-layout h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.design-and-layout p{
+    font-size: 16px;
+    color: rgba(114, 114, 114, 1);
+    font-family: 'Roboto', sans-serif;
+    width: 540px;
+    margin-bottom: 60px;
+}
+.write-to-me {
+    width: 225px;
+    padding: 25px 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(52, 84, 122, 1);
+    color: white;
+    transition: 1s;
+    border-radius: 7px;
+}
+.write-to-me:hover {
+    background-color: rgba(52, 100, 700, 4);
+    border-radius: 50px;
+    font-size: 14px;
+}
+.about-me{
+    padding: 120px;
+}
+.types-of-project {
+    background-color: rgba(52, 84, 122, 1);
+    padding: 109px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.num-project h5{
+    font-size: 21px;
+    gap: 10px;
+}
+.mi-skills {
+    padding: 102px;
+}
+.mi-skills, .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-mi-skills h2 {
+    font-size: 32px;
+}
+.line {
+    width: 445px;
+    height: 4px;
+    background-color: rgba(196, 196, 196, 1);
+}
+.name-skills {
+    line-height: 50px;
+    color: rgba(114, 114, 114, 1);
+}
+.my-photo img{
+    width: 555px;
+    height: 555px;
+    border-radius: 30px;
+    margin-left: 130px;
+}
+.how-do-I-work {
+    padding: 100px;
+    background-color: rgba(238, 239, 241, 1);
+}
+.how-do-I-work .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.in-line1 {
+    width: 380px;
+    height: 4px;
+    background-color: rgba(52, 84, 122, 1);
+}
+.in-line2 {
+    width: 444px;
+    height: 4px;
+    background-color: rgba(52, 84, 122, 1);
+}
+.in-line3 {
+    width: 300px;
+    height: 4px;
+    background-color: rgba(52, 84, 122, 1);
+}
+.video-my-work video {
+    height: 300px;
+    margin-top: 57px;
+}
+.stickers-img {
+    width: 1520px;
+}
+.stickers-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.stickers-img img{
+    width: 380px;
+    height: 380px;
+    display: block;
+    transition: 1s;
+}
+.hover-darken {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease;
+}
+.hover-darken:hover {
+    filter: brightness(50%) sepia(100%) hue-rotate(180deg);
+}
+.microsoft {
+    padding: 72px;
+}
+.microsoft-images {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+.do-you-wont {
+    background-color: rgba(238, 239, 241, 1);
+    padding: 100px;
+}
+.do-you-wont .container {
+    display: flex;
+    flex-direction: column;
+}
+.name-surname {
+    margin-top: 65px;
+}
+.name-surname input {
+    background-color: white;
+    padding: 17px;
+    margin-left: 30px;
+}
+.massage textarea {
+    background-color: white;
+    padding: 17px;
+    margin-top: 20px;
+    width: 515px;
+}
+.button-massage {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button-massage button {
+    background-color: rgba(52, 84, 122, 1);
+    padding: 20px 40px;
+    color: white;
+    transition: 1s;
+    border-radius: 20px;
+}
+.button-massage button:hover {
+    background-color: rgba(52, 100, 700, 4);
+    font-size: 20px;
+    padding: 25px 50px;
+    border-radius: 100px;
+}
+.footer {
+    padding: 50px;
+    background-color: rgba(52, 84, 122, 1);
+    display: flex;
+    align-items: center;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.by-name {
+    color: white;
+}
+.by-name h2 {
+    margin-bottom: 20px;
+}
+.by-name p {
+    font-size: 13px;
+}
+
+
