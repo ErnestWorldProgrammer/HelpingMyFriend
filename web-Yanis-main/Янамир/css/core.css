@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+}
+.title {
+    margin-top: 30px;
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+.Yannis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Yannis p {
+    background-color: red;
+    padding: 50px 60px;
+    transition: 1s;
+}
+.Yannis p:hover {
+    border-radius: 30px;
+    color: white;
+    transform: scale(2.1);
+    border: 5px solid black;
+    font-size: 30px;
+}
+.Yann {
+    width: 600px;
+    height: 700px;
+    transition: 0.5s;
+    border: 5px solid red;
+}
+.Yann:hover {
+    transform: scale(3.1);
+}
+.yanbek {
+    width: 200px;
+    height: 300px;
+}

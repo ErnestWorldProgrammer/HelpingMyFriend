@@ -1,0 +1,30 @@
+.Amir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.Amir .amir-black{
+    border-radius: 50px;
+    border: 20px solid red;
+    transition: 1s;
+}
+.Amir .amir-black:hover {
+    transform: scale(4.1);
+}
+
+.amir2 {
+    font-size: 36px;
+    transition: 1s;
+}
+.amir2:hover {
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 70px;
+    padding: 50px;
+}
+.amir-white {
+    width: 300px;
+    height: 600px;
+}
